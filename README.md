@@ -30,7 +30,7 @@ Implement following extension in the presenting ViewController:
 extension MyViewController: UIViewControllerTransitioningDelegate {
 
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        return ModalBottomSheet(presentedViewController: presented, presenting: presenting, blurEffectStyle: .dark)
+        return AYOOModalBottomSheet(presentedViewController: presented, presenting: presenting, blurEffectStyle: .dark)
     }
     
 }
